@@ -54,13 +54,13 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            //'host'      => 'mobellodb.cpselrcl7m3w.ap-southeast-1.rds.amazonaws.com',
-            'host'      => 'localhost',
+            'host'      => 'mobellodb.cpselrcl7m3w.ap-southeast-1.rds.amazonaws.com',
+            //'host'      => 'localhost',
             'port'      => 3306,
             'database'  => 'cms',
             'username'  => 'root',
-            //'password'  => 'cayenneapp',
-            'password'  => '',
+            'password'  => 'cayenneapp',
+            //'password'  => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
