@@ -50,10 +50,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key'    => 'your-key',
-            'secret' => 'your-secret',
-            'region' => 'your-region',
-            'bucket' => 'your-bucket',
+            'key'    => 'AKIAJ4XNDKHVZNVJYKOA',
+            'secret' => 'p4MLgK7GLj8yIwx1Wly2N16Skz74vHrx4USh29v2',
+            'region' => 'ap-southeast-1',
+            'bucket' => 'cashtagcms',
         ],
 
         'rackspace' => [

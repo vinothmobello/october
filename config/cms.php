@@ -239,15 +239,15 @@ return [
     'storage' => [
 
         'uploads' => [
-            'disk'   => 'local',
+            'disk'   => 's3',
             'folder' => 'uploads',
-            'path'   => '/storage/app/uploads',
+            'path'   => 'https://ap-southeast-1.amazonaws.com/cashtagcms/uploads',
         ],
 
         'media' => [
-            'disk'   => 'local',
+            'disk'   => 's3',
             'folder' => 'media',
-            'path'   => '/storage/app/media',
+            'path'   => 'https://ap-southeast-1.amazonaws.com/cashtagcms/media',
         ],
 
     ],
