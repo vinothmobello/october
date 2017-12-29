@@ -54,7 +54,7 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => 'mobellodb.cpselrcl7m3w.ap-southeast-1.rds.amazonaws.com',
+            'host'      => 'test-cayennedb.cpselrcl7m3w.ap-southeast-1.rds.amazonaws.com',
             //'host'      => 'localhost',
             'port'      => 3306,
             'database'  => 'cms',
