@@ -54,13 +54,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => 'test-cayennedb.cpselrcl7m3w.ap-southeast-1.rds.amazonaws.com',
-            //'host'      => 'localhost',
+            'host'      => 'test-cashtagdb.cfgsnw3gwn78.ap-south-1.rds.amazonaws.com',
             'port'      => 3306,
             'database'  => 'cms',
             'username'  => 'root',
-            'password'  => 'cayenneapp',
-            //'password'  => '',
+            'password'  => '$1Cashtag9$',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
